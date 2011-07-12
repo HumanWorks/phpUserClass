@@ -1,0 +1,585 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Docs For Class flexibleAccess</title>
+	<link rel="stylesheet" type="text/css" id="layout" href="../media/layout.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../media/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../media/print.css" media="print">
+</head>
+
+<body>
+<div id="header">
+	<div id="navLinks">
+		[ <a href="../classtrees_phpUserClass.html">Class Tree: phpUserClass</a> ]
+		[ <a href="../elementindex_phpUserClass.html">Index: phpUserClass</a> ]
+		[ <a href="../elementindex.html">All elements</a> ]
+	</div>
+	<div id="packagePosition">
+		<div id="packageTitle2">phpUserClass</div>
+		<div id="packageTitle">phpUserClass</div>
+		<div id="elementPath"> &middot; </div>
+	</div>
+</div>
+
+<div id="nav" class="small">
+	<div id="packages">
+		Packages:
+					<p><a href="../li_phpUserClass.html">phpUserClass</a></p>
+			</div>
+
+				<div id="index">
+			<div id="files">
+								Files:<br>
+								<a href="../phpUserClass/_access.class.php.html">		access.class.php
+		</a><br>
+				</div>
+			<div id="interfaces">
+							</div>
+			<div id="classes">
+				Classes:<br>
+								<a href="../phpUserClass/flexibleAccess.html">		flexibleAccess
+		</a><br>
+				</div>
+		</div>
+	</div>
+
+<div id="body">
+	    		<h1>Class: flexibleAccess</h1>
+	<p style="margin: 0px;">Source Location: /access.class.php</p>
+	
+
+<div class="leftcol">
+	<h3><a href="#class_details">Class Overview</a> <span class="smalllinenumber">[line 35]</span></h3>
+	<div id="classTree"><pre></pre>
+</div>
+	<div class="small">
+	<p>Flexible Access - The main class</p>
+		<h4>Author(s):</h4>
+	<ul>
+			</ul>
+	<h4>Version:</h4>
+	<ul>
+			</ul>
+
+	<h4>Copyright:</h4>
+	<ul>
+			</li>
+	</div>
+</div>
+
+<div class="middlecol">
+	<h3><a href="#class_vars">Variables</a></h3>
+	<ul class="small">
+				<li><a href="../phpUserClass/flexibleAccess.html#var$dbConn">$dbConn</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$dbHost">$dbHost</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$dbName">$dbName</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$dbPass">$dbPass</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$dbPort">$dbPort</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$dbTable">$dbTable</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$dbUser">$dbUser</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$displayErrors">$displayErrors</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$passMethod">$passMethod</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$remCookieDomain">$remCookieDomain</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$remCookieName">$remCookieName</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$remTime">$remTime</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$sessionVariable">$sessionVariable</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$tbFields">$tbFields</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$userData">$userData</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#var$userID">$userID</a></li>
+			</ul>
+	<h3><a href="#class_consts">Constants</a></h3>
+	<ul class="small">
+			</ul>
+</div>
+<div class="rightcol">
+	<h3><a href="#class_methods">Methods</a></h3>
+	<ul class="small">
+				<li><a href="../phpUserClass/flexibleAccess.html#methodflexibleAccess">flexibleAccess</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodactivate">activate</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodget_property">get_property</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodinsertUser">insertUser</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodis">is</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodis_active">is_active</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodis_loaded">is_loaded</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodlogin">login</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodlogout">logout</a></li>
+				<li><a href="../phpUserClass/flexibleAccess.html#methodrandomPass">randomPass</a></li>
+			</ul>
+</div>
+
+<div id="content">
+<hr>
+	<div class="contents">
+	</div>
+
+	<div class="leftCol">
+    	<h2>Inherited Variables</h2>
+		<h2>Inherited Constants</h2>
+		</div>
+
+	<div class="rightCol">
+	<h2>Inherited Methods</h2>
+		</div>
+	<br clear="all">
+	<hr>
+
+	<a name="class_details"></a>
+	<h2>Class Details</h2>
+	<p align="center"><strong>Flexible Access - The main class
+</strong></p>
+	<p class="small" style="color: #334B66;">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_vars"></a>
+	<h2>Class Variables</h2>
+		<a name="var$dbConn"></a>
+	<p></p>
+	<h4>$dbConn</h4>
+	<div class="indent">
+		<p class="linenumber">[line 110]</p>
+				<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$dbHost"></a>
+	<p></p>
+	<h4>$dbHost = <span class="value">&nbsp;'localhost'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 46]</p>
+		<p align="center"><strong>The database host
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$dbName"></a>
+	<p></p>
+	<h4>$dbName = <span class="value">&nbsp;'database'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 41]</p>
+		<p align="center"><strong>The database that we will use
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$dbPass"></a>
+	<p></p>
+	<h4>$dbPass = <span class="value">&nbsp;'password'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 61]</p>
+		<p align="center"><strong>The database password
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$dbPort"></a>
+	<p></p>
+	<h4>$dbPort = <span class="value">&nbsp;3306</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 51]</p>
+		<p align="center"><strong>The database port
+</strong></p>
+<p>var int</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$dbTable"></a>
+	<p></p>
+	<h4>$dbTable = <span class="value">&nbsp;'users'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 66]</p>
+		<p align="center"><strong>The database table that holds all the information
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$dbUser"></a>
+	<p></p>
+	<h4>$dbUser = <span class="value">&nbsp;'user'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 56]</p>
+		<p align="center"><strong>The database user
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$displayErrors"></a>
+	<p></p>
+	<h4>$displayErrors = <span class="value">&nbsp;true</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 107]</p>
+		<p align="center"><strong>Display errors? Set this to true if you are going to seek for help, or have troubles with the script
+</strong></p>
+<p>var bool</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$passMethod"></a>
+	<p></p>
+	<h4>$passMethod = <span class="value">&nbsp;'sha1'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 102]</p>
+		<p align="center"><strong>The method used to encrypt the password. It can be sha1, md5 or nothing (no encryption)
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$remCookieDomain"></a>
+	<p></p>
+	<h4>$remCookieDomain = <span class="value">&nbsp;''</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 97]</p>
+		<p align="center"><strong>The cookie domain
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$remCookieName"></a>
+	<p></p>
+	<h4>$remCookieName = <span class="value">&nbsp;'ckSavePass'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 92]</p>
+		<p align="center"><strong>The name of the cookie which we will use if user wants to be remembered by the system
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$remTime"></a>
+	<p></p>
+	<h4>$remTime = <span class="value">&nbsp;2592000</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 87]</p>
+		<p align="center"><strong>When user wants the system to remember him/her, how much time to keep the cookie? (seconds)
+</strong></p>
+<p>var int</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$sessionVariable"></a>
+	<p></p>
+	<h4>$sessionVariable = <span class="value">&nbsp;'userSessionValue'</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 71]</p>
+		<p align="center"><strong>The session variable ($_SESSION[$sessionVariable]) which will hold the data while the user is logged on
+</strong></p>
+<p>var string</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$tbFields"></a>
+	<p></p>
+	<h4>$tbFields = <span class="value">array(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'userID'=&gt;&nbsp;'userID',&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'login'&nbsp;=&gt;&nbsp;'username',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'pass'&nbsp;&nbsp;=&gt;&nbsp;'password',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'email'&nbsp;=&gt;&nbsp;'email',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'active'=&gt;&nbsp;'active'<br>
+&nbsp;&nbsp;)</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 76]</p>
+		<p align="center"><strong>Those are the fields that our table uses in order to fetch the needed data. The structure is 'fieldType' =&gt; 'fieldName'
+</strong></p>
+<p>var array</p>		<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$userData"></a>
+	<p></p>
+	<h4>$userData = <span class="value">array()</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line 111]</p>
+				<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="var$userID"></a>
+	<p></p>
+	<h4>$userID</h4>
+	<div class="indent">
+		<p class="linenumber">[line 109]</p>
+				<p><b>Type:</b> mixed</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_methods"></a>
+	<h2>Class Methods</h2>
+	
+	<a name="methodflexibleAccess"></a>
+	<p></p>
+	<h3>flexibleAccess</h3>
+	<div class="indent">
+		<p>
+		<code>void flexibleAccess(
+[string
+$dbConn = ''], [array
+$settings = ''])</code>
+		</p>
+	
+		<p class="linenumber">[line 119]</p>
+		<p align="center"><strong>Class Constructure
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">string</span>
+		<b>$dbConn</b> 
+		- 
+		</li>
+			<li>
+		<span class="type">array</span>
+		<b>$settings</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodactivate"></a>
+	<p></p>
+	<h3>activate</h3>
+	<div class="indent">
+		<p>
+		<code>bool activate(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 238]</p>
+		<p align="center"><strong>Activates the user account
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodget_property"></a>
+	<p></p>
+	<h3>get_property</h3>
+	<div class="indent">
+		<p>
+		<code>string get_property(
+string
+$property)</code>
+		</p>
+	
+		<p class="linenumber">[line 211]</p>
+		<p align="center"><strong>Get a property of a user. You should give here the name of the field that you seek from the user table
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">string</span>
+		<b>$property</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodinsertUser"></a>
+	<p></p>
+	<h3>insertUser</h3>
+	<div class="indent">
+		<p>
+		<code>void insertUser(
+
+$data)</code>
+		</p>
+	
+		<p class="linenumber">[line 256]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$data</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodis"></a>
+	<p></p>
+	<h3>is</h3>
+	<div class="indent">
+		<p>
+		<code>bool is(
+
+$prop)</code>
+		</p>
+	
+		<p class="linenumber">[line 202]</p>
+		<p align="center"><strong>Function to determine if a property is true or false
+</strong></p>
+<p>param string $prop</p>		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$prop</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodis_active"></a>
+	<p></p>
+	<h3>is_active</h3>
+	<div class="indent">
+		<p>
+		<code>bool is_active(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 221]</p>
+		<p align="center"><strong>Is the user an active user?
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodis_loaded"></a>
+	<p></p>
+	<h3>is_loaded</h3>
+	<div class="indent">
+		<p>
+		<code>void is_loaded(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line 230]</p>
+		<p align="center"><strong>Is the user loaded?
+</strong></p>
+<p>@ return bool</p>		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodlogin"></a>
+	<p></p>
+	<h3>login</h3>
+	<div class="indent">
+		<p>
+		<code>bool login(
+string
+$uname, string
+$password, [
+$remember = false], [bool
+$loadUser = true])</code>
+		</p>
+	
+		<p class="linenumber">[line 153]</p>
+		<p align="center"><strong>Login function
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">string</span>
+		<b>$uname</b> 
+		- 
+		</li>
+			<li>
+		<span class="type">string</span>
+		<b>$password</b> 
+		- 
+		</li>
+			<li>
+		<span class="type">bool</span>
+		<b>$loadUser</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$remember</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodlogout"></a>
+	<p></p>
+	<h3>logout</h3>
+	<div class="indent">
+		<p>
+		<code>bool logout(
+[
+$redirectTo = ''])</code>
+		</p>
+	
+		<p class="linenumber">[line 188]</p>
+		<p align="center"><strong>Logout function
+</strong></p>
+<p>param string $redirectTo</p>		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$redirectTo</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodrandomPass"></a>
+	<p></p>
+	<h3>randomPass</h3>
+	<div class="indent">
+		<p>
+		<code>void randomPass(
+[
+$length = 10], [
+$chrs = '1234567890qwertyuiopasdfghjklzxcvbnm'])</code>
+		</p>
+	
+		<p class="linenumber">[line 277]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$length</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$chrs</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_consts"></a>
+	<h2>Class Constants</h2>
+	</div>
+	<div id="credit">
+		<hr>
+		Documentation generated on Sat, 10 Nov 2007 12:38:07 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.3.2</a>
+	</div>
+</div>
+</body>
+</html>
