@@ -11,6 +11,8 @@
  *				http://www.webdigity.com/index.php/board,91.0.html
  * or the official web site:
  *				http://phpUserClass.com/
+ * also check and contribute to our gitHub repo:
+ *				https://github.com/HumanWorks/phpUserClass
  * ==============================================================================
  * 
  * @version $Id: access.class.php,v 0.93 2008/05/02 10:54:32 $

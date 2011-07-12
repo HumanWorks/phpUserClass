@@ -11,10 +11,12 @@
  *				http://www.webdigity.com/index.php/board,91.0.html
  * or the official web site:
  *				http://phpUserClass.com/
+ * also check and contribute to our gitHub repo:
+ *				https://github.com/HumanWorks/phpUserClass
  * ==============================================================================
  * 
  * @version $Id: access.class.php,v 1.00 2009/11/18 10:54:32 $
- * @copyright Copyright (c) 2007-2009 Nick Papanotas (http://www.webdigity.com)
+ * @copyright Copyright (c) 2007-2011 Nick Papanotas (http://www.webdigity.com)
  * @author Nick Papanotas <nikolas@webdigity.com>
  * @license http://opensource.org/licenses/gpl-license.php GNU General Public License (GPL)
  * 
